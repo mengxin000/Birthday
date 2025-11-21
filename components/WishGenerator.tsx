@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Wand2, Copy, Check, RefreshCw, MessageSquareHeart } from 'lucide-react';
+import { Wand2, Copy, Check, RefreshCw, Heart } from 'lucide-react';
 import { WishRequest } from '../types';
 import { generateBirthdayWish } from '../services/geminiService';
 
@@ -136,7 +136,7 @@ const WishGenerator: React.FC = () => {
         <div className="h-full flex flex-col animate-fade-in">
           <div className="flex-1 bg-gradient-to-br from-slate-800/80 to-slate-900/80 rounded-xl p-6 border border-cyan-500/30 relative overflow-hidden flex flex-col justify-center items-center text-center shadow-inner">
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-400 to-blue-500"></div>
-            <MessageSquareHeart className="w-8 h-8 text-pink-400 mb-4 opacity-50" />
+            <Heart className="w-8 h-8 text-pink-400 mb-4 opacity-50" />
             <p className="text-lg md:text-xl text-slate-100 font-medium leading-loose whitespace-pre-wrap font-serif-sc tracking-wide">
               {result}
             </p>
