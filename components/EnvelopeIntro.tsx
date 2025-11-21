@@ -59,7 +59,7 @@ const EnvelopeIntro: React.FC<EnvelopeIntroProps> = ({ onComplete }) => {
           {/* Paper Texture */}
           <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cream-paper.png')] pointer-events-none"></div>
           
-          <h2 className="text-2xl font-bold text-pink-600 mb-4 font-serif-sc">亲爱的寿星:</h2>
+          <h2 className="text-2xl font-bold text-pink-600 mb-4 font-serif-sc">亲爱的念念:</h2>
           <p className="text-lg leading-relaxed font-hand mb-6 text-slate-700">
             见信如晤。
             <br/><br/>
@@ -72,7 +72,7 @@ const EnvelopeIntro: React.FC<EnvelopeIntroProps> = ({ onComplete }) => {
               onClick={onComplete}
               className="bg-pink-600 hover:bg-pink-700 text-white px-6 py-2 rounded-full font-bold shadow-lg transform hover:scale-105 transition-all flex items-center gap-2"
             >
-              进入生日元宇宙 🚀
+              进入元宇宙 🚀
             </button>
           </div>
         </div>

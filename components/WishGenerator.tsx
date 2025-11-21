@@ -54,7 +54,7 @@ const WishGenerator: React.FC = () => {
                 type="text"
                 name="name"
                 required
-                placeholder="例如：小明"
+                placeholder="例如：念念"
                 value={formData.name}
                 onChange={handleChange}
                 className="w-full bg-slate-800/50 border border-slate-600 rounded-xl px-4 py-2.5 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent placeholder-slate-500 transition-all"
@@ -79,7 +79,7 @@ const WishGenerator: React.FC = () => {
               type="text"
               name="relationship"
               required
-              placeholder="例如：死党、妈妈、暗恋对象"
+              placeholder="例如：死党、妈妈、暗恋对象、恋人"
               value={formData.relationship}
               onChange={handleChange}
               className="w-full bg-slate-800/50 border border-slate-600 rounded-xl px-4 py-2.5 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent placeholder-slate-500 transition-all"
@@ -91,7 +91,7 @@ const WishGenerator: React.FC = () => {
             <textarea
               name="hobbies"
               rows={2}
-              placeholder="例如：喜欢打游戏、爱吃火锅、最近在减肥"
+              placeholder="例如：喜欢打游戏、爱吃火锅、最近在减肥、关于演唱会"
               value={formData.hobbies}
               onChange={handleChange}
               className="w-full bg-slate-800/50 border border-slate-600 rounded-xl px-4 py-2.5 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent placeholder-slate-500 resize-none transition-all"

@@ -42,9 +42,9 @@ const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
       {/* Header */}
       <div className="absolute top-10 text-center animate-fade-in-down w-full px-4">
         <h1 className="text-5xl md:text-7xl font-title text-transparent bg-clip-text bg-gradient-to-b from-white to-pink-200 drop-shadow-[0_2px_10px_rgba(236,72,153,0.5)] mb-2">
-          生日奇妙夜
+          念念生日快乐
         </h1>
-        <p className="text-indigo-200/80 font-light tracking-widest uppercase text-xs md:text-sm">Birthday Metaverse V2.0</p>
+        <p className="text-indigo-200/80 font-light tracking-widest uppercase text-xs md:text-sm">Birthday ProMinMAX V2.0</p>
       </div>
 
       {/* Grid */}
