@@ -12,6 +12,8 @@ View your app in AI Studio: https://ai.studio/apps/drive/13Gt0-WqogXOyxixcbcNMyD
 
 **Prerequisites:**  Node.js
 
+## Example
+<div src="https://mengxin000.github.io/Birthday-pro/" />
 
 1. Install dependencies:
    `npm install`
