@@ -11,7 +11,9 @@ View your app in AI Studio: https://ai.studio/apps/drive/13Gt0-WqogXOyxixcbcNMyD
 ## Run Locally
 
 **Prerequisites:**  Node.js
-<a href="https://mengxin000.github.io/Birthday-pro/" target="_blank" title="访问示例网站">示例链接</a>
+
+## Example
+<a href="https://mengxin000.github.io/Birthday-pro/" target="_blank" title="访问示例网站">https://mengxin000.github.io/Birthday-pro/</a>
 1. Install dependencies:
    `npm install`
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
